@@ -1,0 +1,36 @@
+# editorconfig.org
+root = true
+
+[*]
+indent_style = space
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.vue]
+indent_size = 2
+
+[*.js]
+indent_size = 2
+
+[*.jade]
+indent_size = 2
+
+[*.pug]
+indent_size = 2
+
+[*.less]
+indent_size = 2
+
+[*.sass]
+indent_size = 2
+
+[*.scss]
+indent_size = 2
+
+[*.blade.php]
+indent_size = 2
